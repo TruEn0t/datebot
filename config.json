@@ -1,0 +1,17 @@
+{
+  "token" : "tokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentoken",
+  "address" : "null",
+  "time" : ["13:00", "19:00"],
+  "days_next" : 5,
+  "admin_id" : 000000000,
+
+  "replicates" : {
+    "first_message" : "Здравствуйте! Мы рады записать вас на встречу и быть максимально полезными",
+    "select_date" : "Выберите дату встречи",
+    "select_time" : "Выберите время встречи",
+    "final" : "Спасибо! Ждем вас {DATE} \nПо адресу {ADDRESS} \nВстреча займет менее одного часа вашего времени",
+    "change_date_and_time" : "Переназначить Дату и Время",
+    "error_command" : "Всё управление имеется в кнопках",
+    "input_error" : "Неверные данные"
+  }
+}
