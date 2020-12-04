@@ -1,9 +1,9 @@
 {
-  "token" : "tokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentokentoken",
-  "address" : "null",
+  "token" : "156f468f5c3f751822405438e5b31b95a6bd2e59b0cd4e796ce5d70345ecabc1edc611c09c4ddd5eb0c2c",
+  "address" : "г.Пермь, ул. Героев Хасана, 9, второй этаж направо, офис 6",
   "time" : ["13:00", "19:00"],
   "days_next" : 5,
-  "admin_id" : 000000000,
+  "admin_id" : 579492051,
 
   "replicates" : {
     "first_message" : "Здравствуйте! Мы рады записать вас на встречу и быть максимально полезными",

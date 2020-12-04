@@ -5,6 +5,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
 from requ import *
 
+
 config = json.load(open('config.json', encoding='utf-8'))
 replicates = config['replicates']
 token = config['token']
@@ -56,6 +57,7 @@ if __name__ == '__main__':
             user_info = vk_session.method('users.get', {'user_ids' : user_id,'fields' : 'domain'})[0]
             text = event.text
 
+            print(f'{user_id} : {text}')
 
             #Если пользователь пишет впервые - предложить выбрать дату
             if not Users.select().where(Users.user_id == user_id).exists():
